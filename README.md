@@ -123,7 +123,7 @@
         <img src="https://via.placeholder.com/160x600?text=Banner" alt="Реклама" class="banner">
       </td>
       <td class="content">
-        <img src="https://via.placeholder.com/468x60?text=Buffalo+County+Times" alt="Баннер" class="banner">
+        <img src="img/banner.webp" alt="banner" class="banner">
 
         <div class="news-item">
           <div class="news-title">Мэр выступил с заявлением</div>
