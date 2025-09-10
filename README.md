@@ -105,7 +105,6 @@
     <tr>
       <td colspan="2">
         <div class="marquee-row">
-          <img src="img/banner.webp" alt="Buffalo County Times Banner" class="banner">
           <marquee>Добро пожаловать на Buffalo County Times. Сегодня 10 октября 2001 года.</marquee>
         </div>
       </td>
