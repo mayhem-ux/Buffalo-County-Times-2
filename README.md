@@ -1,14 +1,13 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>Buffalo County Times</title>
   <style>
     body {
-      background-color: #f0f0f0;
+      background-color: #1e1e1e;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 14px;
-      color: #000;
+      color: #e0e0e0;
       margin: 0;
       padding: 0;
     }
@@ -28,14 +27,14 @@
       text-align: center;
     }
     td.menu {
-      background-color: #cccccc;
+      background-color: #2b2b2b;
       width: 180px;
       vertical-align: top;
       padding: 10px;
       font-size: 13px;
     }
     td.content {
-      background-color: #ffffff;
+      background-color: #2a2a2a;
       padding: 20px;
       vertical-align: top;
       width: 100%;
@@ -43,12 +42,12 @@
     .news-title {
       font-size: 20px;
       font-weight: bold;
-      color: #003366;
+      color: #66aaff;
       margin-bottom: 5px;
     }
     .news-date {
       font-size: 12px;
-      color: #666666;
+      color: #aaaaaa;
       margin-bottom: 10px;
     }
     .news-text {
@@ -56,34 +55,45 @@
       line-height: 1.6em;
     }
     a {
-      color: #003366;
+      color: #66aaff;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
     td.footer {
-      background-color: #e0e0e0;
+      background-color: #1a1a1a;
       font-size: 11px;
       text-align: center;
       padding: 5px;
+      color: #888;
     }
     .banner {
       display: block;
       margin: 10px auto;
-      border: 1px solid #999;
+      border: 1px solid #444;
     }
     .counter {
       font-size: 11px;
-      color: #333;
+      color: #aaa;
       text-align: center;
       margin-top: 5px;
     }
-    marquee {
+    .marquee-row {
+      display: flex;
+      align-items: center;
       background-color: #003366;
       color: #ffffff;
       font-size: 13px;
-      padding: 3px;
+      padding: 5px;
+    }
+    .marquee-row img {
+      height: 40px;
+      aspect-ratio: 2.35 / 1;
+      margin-right: 10px;
+    }
+    marquee {
+      flex: 1;
     }
   </style>
 </head>
@@ -94,7 +104,10 @@
     </tr>
     <tr>
       <td colspan="2">
-        <marquee>Добро пожаловать на Buffalo County Times. Сегодня 10 октября 2001 года.</marquee>
+        <div class="marquee-row">
+          <img src="https://via.placeholder.com/235x100?text=Buffalo+County+Times" alt="Логотип">
+          <marquee>Добро пожаловать на Buffalo County Times. Сегодня 10 октября 2001 года.</marquee>
+        </div>
       </td>
     </tr>
     <tr>
@@ -172,3 +185,4 @@
   </table>
 </body>
 </html>
+
