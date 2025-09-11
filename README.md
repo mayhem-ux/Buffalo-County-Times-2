@@ -184,10 +184,10 @@
     </div>
       </td>
       <!-- Реклама №2 -->
-    <img src="img/rek1.jpg" alt="Реклама 2" class="ad">
+    <img src="img/rek1.jpg" alt="Реклама 2" class="rek1">
 
 <!-- Реклама №3 -->
-    <img src="img/rek2.jpg" alt="Реклама 3" class="ad">
+    <img src="img/rek2.jpg" alt="Реклама 3" class="rek2">
 
       <!-- Новости -->
       <td class="content">
