@@ -3,13 +3,6 @@
   <meta charset="UTF-8">
   <title>Buffalo County Times</title>
   <style>
-   .nokia {
-  width: 83px;
-  height: 227px;
-  object-fit: cover; /* картинка обрежется, но сохранит пропорции */
-  display: block;    /* чтобы она была как отдельный элемент */
-  margin: 10px auto; /* центрирование */
-}
     body {
       background-color: #1e1e1e;
       font-family: Arial, Helvetica, sans-serif;
@@ -23,7 +16,6 @@
       border: 0;
       cellspacing: 0;
       cellpadding: 0;
-      height: 100vh;
     }
     td.header {
       background-color: #003366;
@@ -35,7 +27,7 @@
     }
     td.menu {
       background-color: #2b2b2b;
-      width: 180px;
+      width: 250px;
       vertical-align: top;
       padding: 10px;
       font-size: 13px;
@@ -58,8 +50,31 @@
       margin-bottom: 10px;
     }
     .news-text {
-      margin-bottom: 25px;
+      margin-bottom: 15px;
       line-height: 1.6em;
+    }
+    .news-image {
+      width: 100%;
+      max-width: 1920px;
+      height: auto;
+      border: 1px solid #444;
+      margin-bottom: 30px;
+      display: block;
+    }
+    .banner {
+      display: block;
+      margin: 15px auto;
+      max-width: 1024px;
+      height: auto;
+      border: 1px solid #444;
+    }
+    .ad {
+      display: block;
+      margin: 20px auto;
+      width: 100%;
+      max-width: 736px;
+      height: auto;
+      border: 1px solid #444;
     }
     a {
       color: #66aaff;
@@ -74,11 +89,6 @@
       text-align: center;
       padding: 5px;
       color: #888;
-    }
-    .banner {
-      display: block;
-      margin: 10px auto;
-      border: 1px solid #444;
     }
     .counter {
       font-size: 11px;
@@ -102,21 +112,36 @@
     marquee {
       flex: 1;
     }
+    .weather {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #1f1f1f;
+      border: 1px solid #444;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <table class="layout">
+    <!-- Заголовок -->
     <tr>
       <td colspan="2" class="header">Buffalo County Times — Local News</td>
     </tr>
+
+    <!-- Бегущая строка + баннер -->
     <tr>
       <td colspan="2">
         <div class="marquee-row">
+          <img src="images/logo.webp" alt="Логотип">
           <marquee>Добро пожаловать на Buffalo County Times. Сегодня 10 октября 2001 года.</marquee>
         </div>
+        <img src="images/banner.webp" alt="Главный баннер" class="banner">
       </td>
     </tr>
+
+    <!-- Основная часть -->
     <tr>
+      <!-- Меню -->
       <td class="menu">
         <b>Разделы</b><br>
         <a href="#">Главная</a><br>
@@ -126,26 +151,37 @@
         <a href="#">Культура</a><br>
         <a href="#">Спорт</a><br>
         <a href="#">Технологии</a><br>
-        <br>
-        <img src="img/nokia.jpg" alt="nokia" class="nokia">
-      </td>
-      <td class="content">
-        <img src="img/banner.webp" alt="banner" class="banner">
 
+        <!-- Блок рекламы -->
+        <img src="images/ad.webp" alt="Реклама" class="ad">
+
+        <!-- Погода -->
+        <div class="weather">
+          <h4>Погода</h4>
+          <iframe src="https://wttr.in/Seattle?format=3" style="border:none;width:100%;height:40px;color:#e0e0e0;background:#1f1f1f;" loading="lazy"></iframe>
+        </div>
+      </td>
+
+      <!-- Новости -->
+      <td class="content">
+        <!-- Шаблон новости (1 из 7) -->
         <div class="news-item">
           <div class="news-title">Мэр выступил с заявлением</div>
           <div class="news-date">10 октября 2001</div>
           <div class="news-text">
             Сегодня мэр Buffalo Hill обратился к жителям округа Буффало, подчеркнув необходимость единства общества и поддержки друг друга после недавних трагических событий в стране.
           </div>
+          <img src="images/news1.webp" alt="Фото новости" class="news-image">
         </div>
 
+        <!-- Повтори ещё 6 таких блоков -->
         <div class="news-item">
-          <div class="news-title">Новый медицинский центр в Buffalo Hill</div>
+          <div class="news-title">Новый медицинский центр</div>
           <div class="news-date">9 октября 2001</div>
           <div class="news-text">
-            В пригороде Буффало Хилл открылся новый медицинский центр. По словам администрации, это значительно упростит доступ к лечению для жителей округа и создаст новые рабочие места.
+            В пригороде Буффало Хилл открылся новый медицинский центр. Это значительно упростит доступ к лечению для жителей округа и создаст новые рабочие места.
           </div>
+          <img src="images/news2.webp" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
@@ -154,6 +190,7 @@
           <div class="news-text">
             Жители округа с радостью встретили возвращение фермерского рынка. Свежие овощи, фрукты и домашняя выпечка снова доступны каждую субботу на главной площади города.
           </div>
+          <img src="images/news3.webp" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
@@ -162,14 +199,16 @@
           <div class="news-text">
             Автобусное сообщение между Buffalo Hill и Сиэттлом временно ограничено из-за нехватки водителей. Власти обещают восстановить расписание в течение двух недель.
           </div>
+          <img src="images/news4.webp" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
           <div class="news-title">Школьная команда победила соседний округ</div>
           <div class="news-date">7 октября 2001</div>
           <div class="news-text">
-            Футбольная команда старшей школы Buffalo Hill одержала победу над командой округа Риверсайд. Игра собрала сотни болельщиков, которые бурно праздновали успех.
+            Футбольная команда старшей школы Buffalo Hill одержала победу над командой округа Риверсайд. Игра собрала сотни болельщиков.
           </div>
+          <img src="images/news5.webp" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
@@ -178,10 +217,21 @@
           <div class="news-text">
             В городском парке прошёл ежегодный культурный фестиваль. Музыка, танцы и кулинарные угощения из разных культур собрали жителей всех возрастов.
           </div>
+          <img src="images/news6.webp" alt="Фото новости" class="news-image">
         </div>
 
+        <div class="news-item">
+          <div class="news-title">Новые рабочие места</div>
+          <div class="news-date">5 октября 2001</div>
+          <div class="news-text">
+            В промышленной зоне Buffalo Hill открылся новый завод, который обеспечит более сотни жителей округа стабильной работой.
+          </div>
+          <img src="images/news7.webp" alt="Фото новости" class="news-image">
+        </div>
       </td>
     </tr>
+
+    <!-- Подвал -->
     <tr>
       <td colspan="2" class="footer">
         © Buffalo County Times, 2001<br>
@@ -191,4 +241,3 @@
   </table>
 </body>
 </html>
-
