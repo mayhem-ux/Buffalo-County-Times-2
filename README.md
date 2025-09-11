@@ -102,6 +102,13 @@
       max-width: 736px;
       height: auto;
       border: 1px solid #444;
+    .rek2 {
+     display: block;
+      margin: 20px auto;
+      width: 100%;
+      max-width: 736px;
+      height: auto;
+      border: 1px solid #444;
     }
     }
     .marquee-row {
@@ -178,6 +185,7 @@
     <p><b>Осадки:</b> 2 мм</p>
     </div>
     <img src="img/rek1.jpg" alt="Реклама" class="rek1">
+    <img src="img/rek2.jpg" alt="Реклама" class="rek2">
       </td>
       <!-- Новости -->
       <td class="content">
