@@ -168,6 +168,11 @@
     <p><b>Осадки:</b> 2 мм</p>
     </div>
       </td>
+      <!-- Реклама №2 -->
+    <img src="img/rek1.jpg" alt="Реклама 2" class="ad">
+
+<!-- Реклама №3 -->
+    <img src="img/rek1.jpg" alt="Реклама 3" class="ad">
 
       <!-- Новости -->
       <td class="content">
