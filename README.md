@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <title>Buffalo County Times</title>
   <style>
-   nokia {
+   .nokia {
   width: 83px;
   height: 227px;
   object-fit: contain;
@@ -125,7 +125,7 @@
         <a href="#">Спорт</a><br>
         <a href="#">Технологии</a><br>
         <br>
-        <img src="img/nokia.jpg" alt="nokia" class="banner">
+        <img src="img/nokia.jpg" alt="nokia" class="nokia">
       </td>
       <td class="content">
         <img src="img/banner.webp" alt="banner" class="banner">
