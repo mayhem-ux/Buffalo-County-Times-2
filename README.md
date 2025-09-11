@@ -95,14 +95,14 @@
       color: #aaa;
       text-align: center;
       margin-top: 5px;
-.rek1 {
-  display: block;
-  margin: 20px auto;
-  width: 100%;
-  max-width: 736px;   /* та же ширина, что у первой рекламы */
-  height: auto;
-  border: 1px solid #444;
-}
+     .rek1 {
+     display: block;
+      margin: 20px auto;
+      width: 100%;
+      max-width: 736px;
+      height: auto;
+      border: 1px solid #444;
+    }
     }
     .marquee-row {
       display: flex;
@@ -129,7 +129,6 @@
   font-size: 16px;
   line-height: 1.6em;
 }
-<img src="img/rek1.jpg" alt="Реклама 3" class="rek1">
 }
 .weather h4 {
   margin: 0 0 10px 0;
@@ -178,6 +177,7 @@
     <p><b>Облачность:</b> Переменная</p>
     <p><b>Осадки:</b> 2 мм</p>
     </div>
+    <img src="img/rek1.jpg" alt="Реклама" class="rek1">
       </td>
       <!-- Новости -->
       <td class="content">
