@@ -3,10 +3,10 @@
   <meta charset="UTF-8">
   <title>Buffalo County Times</title>
   <style>
-   .nokia.jpg {
+   nokia {
   width: 83px;
   height: 227px;
-  object-fit: cover;
+  object-fit: contain;
      }
     body {
       background-color: #1e1e1e;
