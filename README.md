@@ -120,7 +120,7 @@
         <a href="#">Спорт</a><br>
         <a href="#">Технологии</a><br>
         <br>
-        <img src="https://via.placeholder.com/160x600?text=Banner" alt="Реклама" class="banner">
+        <img src="img/nokia.jpg" alt="nokia" class="banner">
       </td>
       <td class="content">
         <img src="img/banner.webp" alt="banner" class="banner">
