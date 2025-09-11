@@ -3,6 +3,11 @@
   <meta charset="UTF-8">
   <title>Buffalo County Times</title>
   <style>
+   .nokia.jpg {
+  width: 83px;
+  height: 227px;
+  object-fit: cover;
+     }
     body {
       background-color: #1e1e1e;
       font-family: Arial, Helvetica, sans-serif;
@@ -120,7 +125,7 @@
         <a href="#">Спорт</a><br>
         <a href="#">Технологии</a><br>
         <br>
-        <img src="img/nokia.jpg" alt="nokia" class="banner" width="83" height="227">
+        <img src="img/nokia.jpg" alt="nokia" class="banner">
       </td>
       <td class="content">
         <img src="img/banner.webp" alt="banner" class="banner">
