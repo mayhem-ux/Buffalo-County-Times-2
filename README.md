@@ -115,7 +115,7 @@
       display: flex;
       align-items: center;
       background-color: #003366;
-      color: #000000;
+      color: #ffffff;
       font-size: 13px;
       padding: 5px;
     }
@@ -126,6 +126,9 @@
     }
     marquee {
       flex: 1;
+      color: #000000;          /* чёрный текст */
+      background-color: #ffffff; /* белый фон под ним */
+      font-weight: bold;       /* можно сделать жирным, как газетная лента */
     }
     .weather {
   margin-top: 20px;
