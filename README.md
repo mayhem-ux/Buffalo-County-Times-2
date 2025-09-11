@@ -110,12 +110,12 @@
       height: auto;
       border: 1px solid #444;
     }
-    
+    }
     .marquee-row {
       display: flex;
       align-items: center;
       background-color: #003366;
-      color: #ffffff;
+      color: #000;
       font-size: 13px;
       padding: 5px;
     }
