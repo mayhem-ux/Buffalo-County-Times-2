@@ -107,7 +107,7 @@
       margin: 20px auto;
       width: 100%;
       max-width: 736px;
-      height: 350;
+      height: auto;
       border: 1px solid #444;
     }
     }
