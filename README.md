@@ -124,6 +124,21 @@
 .weather h4 {
   margin: 0 0 10px 0;
   color: #66aaff;
+.rek1 {
+  display: block;
+  width: 736px;
+  height: 981px;
+  object-fit: cover; /* картинка впишется без искажений */
+  margin: 20px auto; /* отступы сверху/снизу и центрирование */
+  border: 1px solid #444;
+.rek2 {
+  display: block;
+  width: 736px;
+  height: 981px;
+  object-fit: cover;
+  margin: 20px auto; /* центр + отступ */
+  border: 1px solid #444;
+}
 }
   </style>
 </head>
@@ -172,7 +187,7 @@
     <img src="img/rek1.jpg" alt="Реклама 2" class="ad">
 
 <!-- Реклама №3 -->
-    <img src="img/rek1.jpg" alt="Реклама 3" class="ad">
+    <img src="img/rek2.jpg" alt="Реклама 3" class="ad">
 
       <!-- Новости -->
       <td class="content">
