@@ -124,20 +124,21 @@
 .weather h4 {
   margin: 0 0 10px 0;
   color: #66aaff;
+/* фиксируем ширину колонки меню */
+td.menu {
+  width: 760px;           /* немного больше чем баннер */
+  vertical-align: top;    /* чтобы контент шёл сверху */
+}
+/* для рекламы */
 .rek1 {
   display: block;
-  width: 736px;
-  height: 981px;
-  object-fit: cover; /* картинка впишется без искажений */
-  margin: 20px auto; /* отступы сверху/снизу и центрирование */
+  max-width: 736px;       /* ширина баннера */
+  max-height: 981px;      /* высота баннера */
+  width: 100%;            /* занимает всю ширину меню */
+  height: auto;           /* сохраняет пропорции */
+  margin: 20px auto;      /* отступы и центрирование */
   border: 1px solid #444;
-.rek2 {
-  display: block;
-  width: 736px;
-  height: 981px;
   object-fit: cover;
-  margin: 20px auto; /* центр + отступ */
-  border: 1px solid #444;
 }
 }
   </style>
@@ -184,10 +185,10 @@
     </div>
       </td>
       <!-- Реклама №2 -->
-    <img src="img/rek1.jpg" alt="Реклама 2" class="rek1">
+    <img src="img/rek1.jpg" alt="rek1" class="rek1">
 
 <!-- Реклама №3 -->
-    <img src="img/rek2.jpg" alt="Реклама 3" class="rek2">
+    <img src="img/rek2.jpg" alt="rek2" class="rek2">
 
       <!-- Новости -->
       <td class="content">
