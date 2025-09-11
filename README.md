@@ -110,7 +110,7 @@
       height: auto;
       border: 1px solid #444;
     }
-    }
+    
     .marquee-row {
       display: flex;
       align-items: center;
