@@ -95,6 +95,14 @@
       color: #aaa;
       text-align: center;
       margin-top: 5px;
+.rek1 {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 736px;   /* та же ширина, что у первой рекламы */
+  height: auto;
+  border: 1px solid #444;
+}
     }
     .marquee-row {
       display: flex;
@@ -121,24 +129,11 @@
   font-size: 16px;
   line-height: 1.6em;
 }
+<img src="rek1.jpg" alt="Реклама 3" class="rek1">
+}
 .weather h4 {
   margin: 0 0 10px 0;
   color: #66aaff;
-/* фиксируем ширину колонки меню */
-td.menu {
-  width: 760px;           /* немного больше чем баннер */
-  vertical-align: top;    /* чтобы контент шёл сверху */
-}
-/* для рекламы */
-.rek1 {
-  display: block;
-  max-width: 736px;       /* ширина баннера */
-  max-height: 981px;      /* высота баннера */
-  width: 100%;            /* занимает всю ширину меню */
-  height: auto;           /* сохраняет пропорции */
-  margin: 20px auto;      /* отступы и центрирование */
-  border: 1px solid #444;
-  object-fit: cover;
 }
 }
   </style>
@@ -184,12 +179,6 @@ td.menu {
     <p><b>Осадки:</b> 2 мм</p>
     </div>
       </td>
-      <!-- Реклама №2 -->
-    <img src="img/rek1.jpg" alt="rek1" class="rek1">
-
-<!-- Реклама №3 -->
-    <img src="img/rek2.jpg" alt="rek2" class="rek2">
-
       <!-- Новости -->
       <td class="content">
         <!-- Шаблон новости (1 из 7) -->
