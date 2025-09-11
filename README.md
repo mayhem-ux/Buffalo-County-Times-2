@@ -242,7 +242,7 @@
     <tr>
       <td colspan="2" class="footer">
         © Buffalo County Times, 2001<br>
-        <div class="counter">Вы посетитель № <span id="counter">1024</span></div>
+        <div class="counter">Вы посетитель № <span id="counter">6026</span></div>
       </td>
     </tr>
   </table>
