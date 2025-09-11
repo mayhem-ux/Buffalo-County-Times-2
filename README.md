@@ -6,8 +6,10 @@
    .nokia {
   width: 83px;
   height: 227px;
-  object-fit: contain;
-     }
+  object-fit: cover; /* картинка обрежется, но сохранит пропорции */
+  display: block;    /* чтобы она была как отдельный элемент */
+  margin: 10px auto; /* центрирование */
+}
     body {
       background-color: #1e1e1e;
       font-family: Arial, Helvetica, sans-serif;
