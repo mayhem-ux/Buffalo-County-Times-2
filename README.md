@@ -115,7 +115,7 @@
       display: flex;
       align-items: center;
       background-color: #003366;
-      color: #000;
+      color: #000000;
       font-size: 13px;
       padding: 5px;
     }
