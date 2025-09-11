@@ -129,7 +129,7 @@
   font-size: 16px;
   line-height: 1.6em;
 }
-<img src="rek1.jpg" alt="Реклама 3" class="rek1">
+<img src="img/rek1.jpg" alt="Реклама 3" class="rek1">
 }
 .weather h4 {
   margin: 0 0 10px 0;
