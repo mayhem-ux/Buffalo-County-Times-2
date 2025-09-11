@@ -113,12 +113,18 @@
       flex: 1;
     }
     .weather {
-      margin-top: 20px;
-      padding: 10px;
-      background-color: #1f1f1f;
-      border: 1px solid #444;
-      text-align: center;
-    }
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #1f1f1f;
+  border: 1px solid #444;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+.weather h4 {
+  margin: 0 0 10px 0;
+  color: #66aaff;
+}
   </style>
 </head>
 <body>
@@ -132,10 +138,9 @@
     <tr>
       <td colspan="2">
         <div class="marquee-row">
-          <img src="images/logo.webp" alt="Логотип">
           <marquee>Добро пожаловать на Buffalo County Times. Сегодня 10 октября 2001 года.</marquee>
         </div>
-        <img src="images/banner.webp" alt="Главный баннер" class="banner">
+        <img src="img/banner.webp" alt="banner" class="banner">
       </td>
     </tr>
 
@@ -153,13 +158,15 @@
         <a href="#">Технологии</a><br>
 
         <!-- Блок рекламы -->
-        <img src="images/ad.webp" alt="Реклама" class="ad">
+        <img src="img/nokia.jpg" alt="Реклама" class="ad">
 
         <!-- Погода -->
-        <div class="weather">
-          <h4>Погода</h4>
-          <iframe src="https://wttr.in/Seattle?format=3" style="border:none;width:100%;height:40px;color:#e0e0e0;background:#1f1f1f;" loading="lazy"></iframe>
-        </div>
+      <div class="weather">
+    <h4>Погода в Buffalo Hill</h4>
+    <p><b>Температура:</b> +18°C</p>
+    <p><b>Облачность:</b> Переменная</p>
+    <p><b>Осадки:</b> 2 мм</p>
+    </div>
       </td>
 
       <!-- Новости -->
@@ -237,11 +244,6 @@
         © Buffalo County Times, 2001<br>
         <div class="counter">Вы посетитель № <span id="counter">1024</span></div>
       </td>
-    </tr>
-  </table>
-</body>
-</html>
-
     </tr>
   </table>
 </body>
