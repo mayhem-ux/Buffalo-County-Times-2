@@ -111,25 +111,36 @@
       border: 1px solid #444;
     }
     }
-    .marquee-row {
-      display: flex;
-      align-items: center;
-      background-color: #003366;
-      color: #ffffff;
-      font-size: 13px;
-      padding: 5px;
+    <!-- Бегущая строка -->
+<tr>
+  <td colspan="2">
+    <div class="marquee-row">
+      <marquee>
+        Добро пожаловать на Buffalo County Times. Сегодня 10 октября 2001 года.
+      </marquee>
+    </div>
+  </td>
+</tr>
     }
-    .marquee-row img {
-      height: 40px;
-      aspect-ratio: 2.35 / 1;
-      margin-right: 10px;
-    }
-    marquee {
-      flex: 1;
-      color: #000000;          /* чёрный текст */
-      background-color: #ffffff; /* белый фон под ним */
-      font-weight: bold;       /* можно сделать жирным, как газетная лента */
-    }
+.marquee-row {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* белый фон под бегущей строкой */
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid #ccc;   /* тонкая рамка по желанию */
+}
+.marquee-row img {
+  height: 40px;
+  aspect-ratio: 2.35 / 1;
+  margin-right: 10px;
+}
+marquee {
+  flex: 1;
+  color: #000000;       /* текст чёрный */
+  font-weight: bold;    /* жирный */
+}
+}
     .weather {
   margin-top: 20px;
   padding: 15px;
