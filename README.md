@@ -120,7 +120,7 @@
         <a href="#">Спорт</a><br>
         <a href="#">Технологии</a><br>
         <br>
-        <img src="img/nokia.jpg" alt="nokia" class="banner">
+        <img src="img/nokia.jpg" alt="nokia" class="banner" width="83" height="227">
       </td>
       <td class="content">
         <img src="img/banner.webp" alt="banner" class="banner">
