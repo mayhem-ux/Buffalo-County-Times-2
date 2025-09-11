@@ -92,7 +92,7 @@
     }
     .counter {
       font-size: 11px;
-      color: #000000;
+      color: #aaa;
       text-align: center;
       margin-top: 5px;
      .rek1 {
