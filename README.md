@@ -236,36 +236,36 @@ marquee {
           <div class="news-title">Проблемы с транспортом</div>
           <div class="news-date">8 октября 2001</div>
           <div class="news-text">
-            Автобусное сообщение между Buffalo Hill и Сиэттлом временно ограничено из-за нехватки водителей. Власти обещают восстановить расписание в течение двух недель.
+            Автобусное сообщение между Буффало Хиллс и Сиэттлом временно ограничено из-за нехватки водителей. Власти обещают восстановить расписание в течение недели.
           </div>
-          <img src="images/news4.webp" alt="Фото новости" class="news-image">
+          <img src="img/avtob.jpg" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
-          <div class="news-title">Школьная команда победила соседний округ</div>
+          <div class="news-title">Заморозки</div>
           <div class="news-date">7 октября 2001</div>
           <div class="news-text">
-            Футбольная команда старшей школы Buffalo Hill одержала победу над командой округа Риверсайд. Игра собрала сотни болельщиков.
+            На прошлой неделе зафиксирован первый заморозок: фермеры округа предупреждают о возможной потере части урожая.
           </div>
-          <img src="images/news5.webp" alt="Фото новости" class="news-image">
+          <img src="img/news5.webp" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
-          <div class="news-title">Культурный фестиваль в Buffalo Hill</div>
+          <div class="news-title">Отмененный фестиваль Hill</div>
           <div class="news-date">6 октября 2001</div>
           <div class="news-text">
-            В городском парке прошёл ежегодный культурный фестиваль. Музыка, танцы и кулинарные угощения из разных культур собрали жителей всех возрастов.
+           Городской фестиваль был отменен, из-за этических соображений и сочуствий в связи с трагедией 11-го числа, а так-же из-за соображения безопастности.
           </div>
-          <img src="images/news6.webp" alt="Фото новости" class="news-image">
+          <img src="img/news6.webp" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
-          <div class="news-title">Новые рабочие места</div>
+          <div class="news-title">Бродячий пес</div>
           <div class="news-date">5 октября 2001</div>
           <div class="news-text">
-            В промышленной зоне Buffalo Hill открылся новый завод, который обеспечит более сотни жителей округа стабильной работой.
+            В пригороде найден бродячий пес, похожий на овчарку - местные волонтеры просят помочь с поиском хозяев.
           </div>
-          <img src="images/news7.webp" alt="Фото новости" class="news-image">
+          <img src="img/news7.webp" alt="Фото новости" class="news-image">
         </div>
       </td>
     </tr>
