@@ -215,12 +215,12 @@ marquee {
 
         <!-- Повтори ещё 6 таких блоков -->
         <div class="news-item">
-          <div class="news-title">Новый медицинский центр</div>
-          <div class="news-date">9 октября 2001</div>
+          <div class="news-title">Ремонт дороги</div>
+          <div class="news-date">8 октября 2001</div>
           <div class="news-text">
-            В пригороде Буффало Хилл открылся новый медицинский центр. Это значительно упростит доступ к лечению для жителей округа и создаст новые рабочие места.
+            В центре Буффало Хилл начались работы по ремонту дорожного покрытия: движение на пересечении Пайн-стрит и Мейн-стрит будет ограничено на два дня.
           </div>
-          <img src="images/news2.webp" alt="Фото новости" class="news-image">
+          <img src="img/rem.jpg" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
