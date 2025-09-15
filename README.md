@@ -247,16 +247,16 @@ marquee {
           <div class="news-text">
             На прошлой неделе зафиксирован первый заморозок: фермеры округа предупреждают о возможной потере части урожая.
           </div>
-          <img src="img/news5.webp" alt="Фото новости" class="news-image">
+          <img src="img/zam.jpg" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
-          <div class="news-title">Отмененный фестиваль Hill</div>
+          <div class="news-title">Отмененный фестиваль</div>
           <div class="news-date">6 октября 2001</div>
           <div class="news-text">
            Городской фестиваль был отменен, из-за этических соображений и сочуствий в связи с трагедией 11-го числа, а так-же из-за соображения безопастности.
           </div>
-          <img src="img/news6.webp" alt="Фото новости" class="news-image">
+          <img src="img/fes.jpg" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
@@ -265,7 +265,7 @@ marquee {
           <div class="news-text">
             В пригороде найден бродячий пес, похожий на овчарку - местные волонтеры просят помочь с поиском хозяев.
           </div>
-          <img src="img/news7.webp" alt="Фото новости" class="news-image">
+          <img src="img/pes.jpg" alt="Фото новости" class="news-image">
         </div>
       </td>
     </tr>
