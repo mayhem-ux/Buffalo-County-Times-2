@@ -224,12 +224,12 @@ marquee {
         </div>
 
         <div class="news-item">
-          <div class="news-title">Фермерский рынок вновь открылся</div>
-          <div class="news-date">9 октября 2001</div>
+          <div class="news-title">Благотворительный концерт</div>
+          <div class="news-date">8 октября 2001</div>
           <div class="news-text">
-            Жители округа с радостью встретили возвращение фермерского рынка. Свежие овощи, фрукты и домашняя выпечка снова доступны каждую субботу на главной площади города.
+            В местной школе прошел благотворительный концерт - собранные средства направят в фонд помощи пострадавшим в Нью-Йорке.
           </div>
-          <img src="images/news3.webp" alt="Фото новости" class="news-image">
+          <img src="img/Concert.jpg" alt="Фото новости" class="news-image">
         </div>
 
         <div class="news-item">
