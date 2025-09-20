@@ -195,8 +195,8 @@ marquee {
       <div class="weather">
     <h4>Погода в Buffalo Hill</h4>
     <p><b>Температура:</b> +13°C</p>
-    <p><b>Облачность:</b> Переменная</p>
-    <p><b>Осадки:</b> 0 мм</p>
+    <p><b>Облачность:</b> Пасмурно</p>
+    <p><b>Осадки:</b> 3 мм</p>
     </div>
     <img src="img/rek1.jpg" alt="Реклама" class="rek1">
     <img src="img/rek2.jpg" alt="Реклама" class="rek2">
